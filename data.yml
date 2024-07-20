@@ -1,0 +1,208 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/jskherman/imprecv/main/cv.typ.schema.json
+
+personal:
+  name: Akshat Sharma
+  email: akshat.sharma@stonybrook.edu
+  phone: (+1) 6316336358
+  url: https://akshatsharma.xyz
+  location:
+    city: Stony Brook
+    region: New York
+  profiles:
+    - network: GitHub
+      username: akshat2602
+      url: https://github.com/akshat2602
+    - network: LinkedIn
+      username: akshat-sharma-2602
+      url: https://linkedin.com/in/akshat-sharma-2602
+
+work:
+  - organization: StonySystems Lab
+    url: https://github.com/stonysystems/depfast-ae
+    location: Stony Brook, NY
+    positions:
+      - position: Graduate Research Assistant
+        startDate: 2023-08
+        endDate: "present"
+        highlights:
+          - Worked on optimizing the replication setup of an in-memory database (built in C++) by developing a novel chained RPC communication model, resulting in a 60% decrease in bandwidth utilization.
+          - Developed a novel fail-slow detection algorithm to predict slow nodes and reroute RPCs, increasing throughput by 25% and reducing latency by 50% in fail-slow scenarios.
+          - Improved network round-trip-time (RTT) while maintaining the durability of consensus algorithms like RAFT. Techstack - C++.
+
+  - organization: Supermind Inc
+    url:
+    location: Wilmington, Delaware
+    positions:
+      - position: Founding Engineer
+        startDate: 2022-08
+        endDate: 2023-01
+        highlights:
+          - Led the design and engineering process of a social search engine with complexities like multi-modal data and elaborate data pipelines built in Python.
+          - Optimized the search engine to reduce search latency by 90% (1000ms to 100ms).
+          - Streamlined the data pipeline by profiling key blockers, moving from a monolith indexer to a microservice-based architecture, improving performance by 175x (from 700 seconds to 4 seconds).
+          - Spearheaded the implementation of a robust deployment process and monitoring systems using Grafana Stack for efficient observability. Techstack - PostgreSQL, Redis, Python, fastAPI, Go. 
+
+  - organization: Bitglaze Technologies
+    url: https://www.bitglaze.com/
+    location: Remote
+    positions:
+      - position: Backend Developer
+        startDate: 2022-02
+        endDate: 2022-05
+        highlights:
+          - Utilized Golang and the Chi Router to develop robust backend APIs for the Permission Management module.
+          - Proficiently wrote SQL queries to fetch and modify data from the underlying database, providing necessary data for the system’s functionalities.
+          - Employed Skaffold to configure a local Kubernetes cluster on a Minikube node, enabling efficient development and seamless testing of new features.
+          - Developed comprehensive unit tests for the API endpoints, ensuring the reliability and stability of the system. Techstack - Go, PostgreSQL, Kubernetes, Skaffold. 
+
+  - organization: Indian Institute of Technology Bombay
+    url:
+    location: Remote
+    positions:
+      - position: Summer Fellow
+        startDate: 2021-04
+        endDate: 2021-08
+        highlights:
+          - Worked on adding support for automated electric circuit assessments in a browser, improving accessibility for educators.
+          - Implemented automated visualizations and introduced results Excel sheet generation for improved data analysis.
+          - Led the development team in creating a user-friendly circuit simulation comparison feature on the browser, enhancing learning outcomes and decision-making.
+          - Techstack - Python, Django, Celery, Typescript, React.JS, Redux. 
+
+education:
+  - institution: Stony Brook University
+    url: https://stonybrook.edu
+    area: Computer Science
+    studyType: Master of Science
+    startDate: 2023-08-01
+    endDate: "present"
+    location: Stony Brook, NY, USA
+    honors:
+    gpa: 4/4
+    courses:
+      - Distributed Systems
+      - Network Security
+      - Operating Systems
+
+  - institution: Pune Institute of Computer Technology
+    url: https://pict.edu
+    area: Computer Engineering
+    studyType: Bachelor of Engineering
+    startDate: 2019-08-01
+    endDate: 2023-07-30
+    location: Pune, India
+    gpa: 9.15/10
+    honors:
+    courses:
+      - Data Structure and Algorithms
+      - Object Oriented Programming
+      - Database Management Systems
+
+
+# certificates:
+#   - name: "Learning How to Learn: Powerful mental tools to help you master tough subjects"
+#     date: 2021-09-01
+#     issuer: Coursera
+#     url: https://example.com
+#     id: "1MPR3CVR3SUM3"
+
+# publications:
+#   - name: A convolutional neural network for predicting Greenland glacier melt and glacial water flow
+#     publisher: Theoretical and Computational Fluid Dynamics
+#     releaseDate: 2020-09-30
+#     url: https://example.com
+
+projects:
+  - name: Benchmarking Locking Methods in Rust Xv6
+    url: https://github.com/akshat2602/octox
+    startDate: 2024-04-01
+    endDate: 2024-04-01
+    affiliation:
+    highlights: 
+      - Implemented various locking mechanisms including spinlocks and ticket locks with different atomics, in a Rust-based port of the Xv6 operating system.
+      - Developed a concurrent hashmap for benchmarking lock implementations under different contention scenarios and conducted extensive benchmarking to measure throughput, latency, and scalability across different lock types.
+      - Demonstrated that ticket locks performed better in high contention scenarios compared to spinlocks.
+      - Techstack - Rust, QEMU, RISC-V, Git. 
+
+  - name: Sentinel
+    url: https://github.com/akshat2602/sentinel
+    startDate: 2024-04
+    endDate: 2024-04
+    affiliation:
+    highlights:
+      - Developed a secure TCP-layer jump proxy in Golang, providing additional protection for publicly accessible TCP services like SSH.
+      - Implemented AES-256 encryption in GCM mode with key derivation via PBKDF2, ensuring data confidentiality and integrity.
+      - Incorporated both forward and reverse proxy functionality, with support for handling multiple concurrent sessions and password-based authentication while maintaining data isolation at the TCP layer.
+      - Techstack - Go.
+
+  - name: ACID on Shards-A Distributed Transactional KV Store
+    url:
+    startDate: 2023-08
+    endDate: 2024-01
+    affiliation:
+    highlights:
+      - Developed a C++ based Redis-like key-value store with sharding and replication support using the RAFT consensus protocol, ensuring data consistency and fault tolerance across distributed servers.
+      - Implemented support for Optimistic Concurrency Control ensuring strict serializability, maintaining transaction order and preserving data integrity. Also implemented snapshotting for log compaction.
+      - Built-in support for distributed transactions and coordinated execution of operations across shards along with Multi-Key Version Control, making a reliable and scalable solution with ACID database properties.
+      - Techstack - C++.
+
+  - name: Code Judge
+    url: https://github.com/PICT-ACM-Student-Chapter/OJ_API
+    startDate: 2021-08
+    endDate: 2021-10
+    affiliation:
+    highlights:
+      - Developed a hackerrank-like remote coding platform for competitive programming competitions.
+      - Added code sandboxing and isolation using Docker for running test cases and judging code submissions.
+      - Integrated rate-limiting and throttling to prevent Denial-of-Service using compilation spamming.
+      - Techstack - Python, Django, ReactJS, djangorestframework, PostgreSQL, Redis, Docker, Sentry.
+
+
+skills:
+  - category: Programming Languages
+    skills:
+      - Python
+      - TypeScript
+      - JavaScript
+      - Go
+      - C++
+      - Rust
+
+  - category: Databases
+    skills:
+      - PostgreSQL
+      - Redis
+      - DynamoDB
+
+  - category: Frameworks/Libraries
+    skills:
+      - Django
+      - django-rest-framework
+      - ReactJS
+      - NextJS
+      - Celery
+      - fastAPI
+      - NodeJS
+
+  - category: Deployment
+    skills:
+      - Docker
+      - Nginx
+      - Caddy
+      - Git
+      - AWS
+      - RabbitMQ
+      - Kubernetes
+
+
+# references:
+#   # You can comment out the entries below if you don't have any references
+#   # The same goes for the publications
+
+#   - name: Dr. Jane Austin
+#     reference: John was a great student. He was always eager to learn new things and was very passionate about his studies. As his mentor, I am proud to say that he was also a great leader and was able to lead his team to victory in the 2020 SCG Bangkok Business Challenge Global Competition.
+#     url: https://janeaustin.com
+
+# leadership:
+#   - highlights:
+#       - Conducted personalized 1-on-1 sessions to support juniors with their individual and professional issues, offering mentorship and advice.
+#       - Recognized for leadership skills and promoted to the role of Web and DevOps Head, spearheading initiatives related to web development and DevOps practices within the organization.
