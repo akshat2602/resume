@@ -17,13 +17,23 @@ personal:
       url: https://linkedin.com/in/akshat-sharma-2602
 
 work:
+  - organization: File Systems and Storage Lab()
+    url: https://www.fsl.cs.sunysb.edu/
+    location: New York
+    positions:
+      - position: Graduate Research Assistant
+        startDate: 2024-02
+        endDate: "present"
+        highlights:
+          - Developed a naive distributed systems orchestrator(complete with heartbeats and fault detection) in Rust. Orchestrator can can be used to run decentralized encryption schemes like Shamir's Secret Sharing.
+          - Surveyed the current literature on broadcast schemes in relation to byzantine faults and developed a evaluating scheme to evaluate systems that can be used to broadcast reliably. 
   - organization: StonySystems Lab
     url: https://github.com/stonysystems/depfast-ae
-    location: Stony Brook, NY
+    location: New York
     positions:
       - position: Graduate Research Assistant
         startDate: 2023-08
-        endDate: "present"
+        endDate: 2024-02
         highlights:
           - Worked on optimizing the replication setup of an in-memory database (built in C++) by developing a novel chained RPC communication model, resulting in a 60% decrease in bandwidth utilization.
           - Developed a novel fail-slow detection algorithm to predict slow nodes and reroute RPCs, increasing throughput by 25% and reducing latency by 50% in fail-slow scenarios.
