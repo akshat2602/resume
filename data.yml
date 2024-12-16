@@ -92,6 +92,9 @@ education:
       - Distributed Systems
       - Network Security
       - Operating Systems
+      - Analysis of Algorithms
+      - Computer Graphics
+      - Storage Systems
 
   - institution: Pune Institute of Computer Technology
     url: https://pict.edu
@@ -103,9 +106,7 @@ education:
     gpa: 9.15/10
     honors:
     courses:
-      - Data Structure and Algorithms
-      - Object Oriented Programming
-      - Database Management Systems
+
 
 
 # certificates:
