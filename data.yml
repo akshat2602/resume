@@ -86,10 +86,10 @@ education:
     area: Computer Science
     studyType: Master of Science
     startDate: 2023-08-01
-    endDate: "present"
+    endDate: "2025-05-01"
     location: Stony Brook, NY, USA
     honors:
-    gpa: 4/4
+    gpa: 3.96/4
     courses:
       - Distributed Systems
       - Network Security

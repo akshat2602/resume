@@ -166,15 +166,15 @@
 ]
 
 #let cvheading(info, uservars) = {
-    if uservars.tiktok {
-        align(end)[ = 
-            Start date - #datetime(
-                year: 2025,
-                month: 06,
-                day: 01,
-            ).display("[year]-[month]-[day]")
-        ]
-    }
+    // if uservars.tiktok {
+    //     align(end)[ = 
+    //         Start date - #datetime(
+    //             year: 2025,
+    //             month: 06,
+    //             day: 01,
+    //         ).display("[year]-[month]-[day]")
+    //     ]
+    // }
     align(center)[
         = #info.personal.name
         #jobtitletext(info, uservars)
