@@ -30,9 +30,11 @@ work:
   - organization: StonySystems Lab
     url: https://github.com/stonysystems/depfast-ae
     location: New York
+    location: New York
     positions:
       - position: Graduate Research Assistant
         startDate: 2023-08
+        endDate: 2024-02
         endDate: 2024-02
         highlights:
           - Worked on optimizing the replication setup of an in-memory database (built in C++) by developing a novel chained RPC communication model, resulting in a 60% decrease in bandwidth utilization.
@@ -95,6 +97,7 @@ education:
       - Analysis of Algorithms
       - Computer Graphics
       - Storage Systems
+      - Formal Verification in Rust
 
   - institution: Pune Institute of Computer Technology
     url: https://pict.edu
@@ -106,6 +109,7 @@ education:
     gpa: 9.15/10
     honors:
     courses:
+
 
 
 
@@ -151,7 +155,7 @@ projects:
     endDate: 2024-01
     affiliation:
     highlights:
-      - Developed a C++ based Redis-like key-value store with sharding and replication support using the RAFT consensus protocol, ensuring data consistency and fault tolerance across distributed servers.
+      - Developed a C++ based Redis-like, key-value store with sharding and replication support using the RAFT consensus protocol, ensuring data consistency and fault tolerance across distributed servers.
       - Implemented support for Optimistic Concurrency Control ensuring strict serializability, maintaining transaction order and preserving data integrity. Also implemented snapshotting for log compaction.
       - Built-in support for distributed transactions and coordinated execution of operations across shards along with Multi-Key Version Control, making a reliable and scalable solution with ACID database properties.
       - Techstack - C++.
