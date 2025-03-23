@@ -25,7 +25,7 @@ work:
         startDate: 2024-02
         endDate: "present"
         highlights:
-          - Developed a naive distributed systems orchestrator(complete with heartbeats and fault detection) in Rust. Orchestrator can can be used to run decentralized encryption schemes like Shamir's Secret Sharing.
+          - Developed a naive distributed systems orchestrator(complete with heartbeats and fault detection) in Rust. Orchestrator can be used to run decentralized encryption schemes like Shamir's Secret Sharing.
           - Surveyed the current literature on broadcast schemes in relation to byzantine faults and developed a evaluating scheme to evaluate systems that can be used to broadcast reliably. 
   - organization: StonySystems Lab
     url: https://github.com/stonysystems/depfast-ae
